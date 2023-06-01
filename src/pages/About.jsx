@@ -6,15 +6,28 @@ export default function About(props) {
     animation: 'slide 10s linear infinite'
   };
 
+  const keyframes = `
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  `;
+
   return (
-   <div style={slidingTextStyle}>
-        
+    <div>
+      <style>{keyframes}</style>
+      <div style={slidingTextStyle}>
         <h1>Under Construction</h1>
-<p>This website is currently under construction. 
-  We apologize for any inconvenience caused.
-   Please check back soon for updates.</p>
-      
+        <p className="scrolling-text">
+          This website is currently under construction.
+          We apologize for any inconvenience caused.
+          Please check back soon for updates.
+        </p>
       </div>
- 
+    </div>
   );
 }
