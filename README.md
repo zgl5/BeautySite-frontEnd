@@ -23,7 +23,7 @@ Beauty Site is a platform that allows users to browse different beauty procedure
 
 # Usage
 The frontend communicates with the backend API to fetch data and perform various operations. 
-You can find the documentation and details of the backend API `[here]`(https://beautysite-backend.onrender.com).
+You can find the documentation and details of the backend API [here](https://beautysite-backend.onrender.com).
 - Open your web browser and navigate to (https://beautysite-frontend.onrender.com/) to access the application.
 - Register an account or log in if you already have one.
 - Browse the available procedures and make appointments.
