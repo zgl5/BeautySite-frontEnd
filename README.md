@@ -22,7 +22,7 @@ Beauty Site is a platform that allows users to browse different beauty procedure
 - JSON Web Tokens (JWT): For secure authentication and authorization.
 
 # Usage
-- Open your web browser and navigate to `https://beautysite-frontend.onrender.com/` to access the application.
+- Open your web browser and navigate to (https://beautysite-frontend.onrender.com/) to access the application.
 - Register an account or log in if you already have one.
 - Browse the available procedures and make appointments.
 - View, edit, or cancel your existing appointments.
