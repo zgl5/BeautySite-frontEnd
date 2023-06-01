@@ -30,7 +30,7 @@ export default function ProcedurePage(props) {
       {procedure.map((item) => (
         <Col key={item.type}>
           <Card> 
-          <Card.Img variant="top" src={require('{item.img}')} /> 
+          <Card.Img variant="top" src={item.img}/> 
           <Card.Body>
               <Card.Title>{item.type}</Card.Title>
               <Card.Text> {item.description}{item.price}</Card.Text>
