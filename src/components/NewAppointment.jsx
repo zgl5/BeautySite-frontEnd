@@ -126,22 +126,13 @@ class NewAppointment extends React.Component {
         </form>
         <br />
         <br />
-        <nav>
-          <a href="/appointment">
-            <strong>See All Appointments</strong>
-          </a>
-        </nav>
-
-        <h2>All Appointments:</h2>
+       <h2>Appointments:</h2>
         <table>
           <thead>
             <tr>
               <th>Name</th>
               <th>Email</th>
-              <th>Phone</th>
-              <th>Timestamp</th>
-              <th>Actions</th>
-            </tr>
+              </tr>
           </thead>
           <tbody>
             {appointments.map((appointment) => (
